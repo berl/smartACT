@@ -6,22 +6,22 @@ smartACT ReadMe v1.0
 3. Critical Notes
 4. smartACT instructions v1.1
 Appendix 1. GNU General Public License Version 3
-% © 2015 Allen Institute.
-% This file is part of smartACT.
-% smartACT is free software: you can redistribute it and/or modify it under 
-% the terms of the GNU General Public License as published by the Free 
-% Software Foundation, either version 3 of the License, or (at your option)
-% any later version. smartACT is distributed in the hope that it will be useful,
-% but WITHOUT ANY WARRANTY; without even the implied warranty of 
-% MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU 
-% General Public License for more details.
+ © 2015 Allen Institute.
+ This file is part of smartACT.
+ smartACT is free software: you can redistribute it and/or modify it under 
+the terms of the GNU General Public License as published by the Free 
+ Software Foundation, either version 3 of the License, or (at your option)
+ any later version. smartACT is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of 
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU 
+ General Public License for more details.
  
-% You should have received a copy of the GNU General Public License along with smartACT.
-% If not, see <http://www.gnu.org/licenses/>.
-% 
-% This package is currently not maintained and no support is implied. 
-% Questions may be directed to Brian Long
-% <brianl@alleninstitute.org> with 'smartACT' in the subject line. 
+ You should have received a copy of the GNU General Public License along with smartACT.
+ If not, see <http://www.gnu.org/licenses/>.
+
+ This package is currently not maintained and no support is implied. 
+ Questions may be directed to Brian Long
+ <brianl@alleninstitute.org> with 'smartACT' in the subject line. 
 
 Please read this entire file before attempting to use smartACT. The smartACT code is intended primarily as a reference and starting point for technology developers and is currently coded to run on our hardware configuration. Section 3 below is particularly important. 
 
@@ -37,6 +37,7 @@ b. Software:
 i. MATLAB 
 ii. ScanImage v 3.8 RC4  available at  http://scanimage.vidriotechnologies.com/display/ephus/ScanImage
 iii. smartACT_src directory in the MATLAB path
+iv. vaa3d available at http://vaa3d.org
 3. Critical Notes
 a. The current smartACT software is configured to run on our setup, including, but not limited to, the orientation of the axes in our manipulator and microscope. 
 b. smartACT must first be tested using fluorescent beads suspended in agarose before use in any other experiments.
